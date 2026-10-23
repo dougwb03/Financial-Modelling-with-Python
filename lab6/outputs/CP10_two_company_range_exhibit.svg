@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="28" font-family="Arial" font-size="18" font-weight="bold">CP10 — DCF range against dated Compustat market price</text>
+<line x1="180.0" y1="55" x2="180.0" y2="275" stroke="#dddddd"/>
+<text x="180.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$21</text>
+<line x1="332.0" y1="55" x2="332.0" y2="275" stroke="#dddddd"/>
+<text x="332.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$128</text>
+<line x1="484.0" y1="55" x2="484.0" y2="275" stroke="#dddddd"/>
+<text x="484.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$234</text>
+<line x1="636.0" y1="55" x2="636.0" y2="275" stroke="#dddddd"/>
+<text x="636.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$341</text>
+<line x1="788.0" y1="55" x2="788.0" y2="275" stroke="#dddddd"/>
+<text x="788.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$447</text>
+<line x1="940.0" y1="55" x2="940.0" y2="275" stroke="#dddddd"/>
+<text x="940.0" y="302" text-anchor="middle" font-family="Arial" font-size="12">$554</text>
+<text x="20" y="120" font-family="Arial" font-size="16">Oracle (ORCL)</text>
+<line x1="182.6" y1="115" x2="225.2" y2="115" stroke="#2c7fb8" stroke-width="14" stroke-linecap="round"/>
+<circle cx="202.0" cy="115" r="7" fill="white" stroke="black" stroke-width="2"/>
+<line x1="345.5" y1="82" x2="345.5" y2="148" stroke="#222" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="345.5" y="168" text-anchor="middle" font-family="Arial" font-size="12">Market $137.30 · 2026-09-30</text>
+<text x="20" y="225" font-family="Arial" font-size="16">Microsoft (MSFT)</text>
+<line x1="448.9" y1="220" x2="585.8" y2="220" stroke="#d95f0e" stroke-width="14" stroke-linecap="round"/>
+<circle cx="511.9" cy="220" r="7" fill="white" stroke="black" stroke-width="2"/>
+<line x1="881.5" y1="187" x2="881.5" y2="253" stroke="#222" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="881.5" y="273" text-anchor="middle" font-family="Arial" font-size="12">Market $512.90 · 2026-09-30</text>
+<text x="20" y="322" font-family="Arial" font-size="11">Thick bar: downside-to-upside DCF range · circle: base value · dashed line: dated Compustat price</text>
+</svg>

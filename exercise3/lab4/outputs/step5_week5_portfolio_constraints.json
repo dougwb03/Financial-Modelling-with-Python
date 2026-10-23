@@ -1,0 +1,12 @@
+{
+  "portfolio_label": "Lab 4 long-only capped tangency portfolio",
+  "input_return_file": "lab3/week4_monthly_excess_returns.csv",
+  "estimation_window": "2015-07 through 2025-06 (full 120-month Lab 3 sample)",
+  "objective": "maximize monthly excess-return Sharpe ratio",
+  "fully_invested": true,
+  "long_only": true,
+  "single_name_cap": 0.15,
+  "gross_leverage": 0.9999999999999998,
+  "number_of_names_held": 8,
+  "rebalance_intention": "Monthly reset to the saved target weights; turnover/cost analysis is deferred to Week 5."
+}

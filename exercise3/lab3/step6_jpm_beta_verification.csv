@@ -1,0 +1,3 @@
+method,beta,window,conventions
+Yahoo Finance Beta (5Y Monthly),0.98,Yahoo does not state; labelled 5Y Monthly,Not fully disclosed by Yahoo
+Matched rerun (JPM on SPY),0.9846713961600083,2021-09 through 2026-08 (60 complete months),Simple returns from adjusted month-end closes; OLS with intercept on SPY

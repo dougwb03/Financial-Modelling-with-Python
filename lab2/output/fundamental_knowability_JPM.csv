@@ -1,0 +1,2 @@
+company,permanent_identifier,metric,unit,value,period_end,filing_date,lag_days,first_usable_date,form,accession
+JPM,CIK 0000019617,Assets,USD,3868240000000,2023-06-30,2023-08-03,34,2023-08-03,10-Q,0000019617-23-000432

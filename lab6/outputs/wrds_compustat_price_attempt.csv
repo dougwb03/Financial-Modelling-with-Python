@@ -1,0 +1,7 @@
+run_date,source,status,detail,beta_note
+2026-10-01,WRDS / Compustat Security Daily (comp.secd),retrieved,Retrieved 2 Compustat dated closes through 2026-10-01.,"Compustat beta query did not run: DatabaseError: Execution failed on sql 'select tic as ticker, beta from comp.security where tic in ('ORCL','MSFT') and beta is not null': (psycopg2.errors.UndefinedColumn) column ""beta"" does not exist
+LINE 1: select tic as ticker, beta from comp.security where tic in (...
+                              ^
+
+[SQL: select tic as ticker, beta from comp.security where tic in ('ORCL','MSFT') and beta is not null]
+(Background on this error at: https://sqlalche.me/e/20/f405)"

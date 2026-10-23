@@ -1,0 +1,3 @@
+source,status,detail
+WRDS / Compustat Security Daily,failed,No WRDS credential/session available in this environment for return query.
+Financial Datasets Prices API,failed,HTTP 401 Missing API key in this environment.

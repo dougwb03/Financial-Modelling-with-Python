@@ -1,0 +1,4 @@
+run_date,source,status,detail
+2026-10-01,WRDS / Compustat funda + secd,failed,"OperationalError: (psycopg2.OperationalError) connection to server at ""wrds-pgdata.wharton.upenn.edu"" (165.123.60.118), port 9737 failed: FATAL:  PAM authentication failed for user ""dougwb""
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)"

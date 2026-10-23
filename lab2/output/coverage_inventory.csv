@@ -1,0 +1,13 @@
+requested,rows_returned,coverage_window,spans_sample,pull_error
+JPM,379,2022-03-01 to 2023-08-31,True,
+BAC,379,2022-03-01 to 2023-08-31,True,
+WFC,379,2022-03-01 to 2023-08-31,True,
+C,379,2022-03-01 to 2023-08-31,True,
+USB,379,2022-03-01 to 2023-08-31,True,
+PNC,379,2022-03-01 to 2023-08-31,True,
+TFC,379,2022-03-01 to 2023-08-31,True,
+RF,379,2022-03-01 to 2023-08-31,True,
+KEY,379,2022-03-01 to 2023-08-31,True,
+WAL,379,2022-03-01 to 2023-08-31,True,
+FRC,0,—,False,
+SBNY,0,—,False,

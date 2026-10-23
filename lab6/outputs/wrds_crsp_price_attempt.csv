@@ -1,0 +1,34 @@
+run_date,source,status,detail
+2026-09-30,WRDS / CRSP dsf,failed,"DatabaseError: Execution failed on sql '
+                with named as (
+                    select ticker, permno,
+                           row_number() over (partition by ticker order by nameendt desc, namedt desc) as rn
+                    from crsp.stocknames
+                    where ticker in ('ORCL','MSFT') and namedt <= '2026-09-30'::date and nameendt >= '2023-01-01'::date
+                ) select n.ticker, d.date, abs(d.prc) as close_price, d.ret, i.vwretd
+                  from named n join crsp.dsf d on n.permno=d.permno
+                  join crsp.dsi i on d.date=i.date
+                 where n.rn=1 and d.date <= '2026-09-30'::date
+                   and d.date >= ('2026-09-30'::date - interval '2 years')
+                   and d.prc is not null and d.prc <> 0 and d.ret is not null and i.vwretd is not null
+                 order by n.ticker, d.date
+            ': (psycopg2.errors.UndefinedColumn) column ""nameendt"" does not exist
+LINE 6: ...RCL','MSFT') and namedt <= '2026-09-30'::date and nameendt >...
+                                                             ^
+HINT:  Perhaps you meant to reference the column ""stocknames.nameenddt"".
+
+[SQL: 
+                with named as (
+                    select ticker, permno,
+                           row_number() over (partition by ticker order by nameendt desc, namedt desc) as rn
+                    from crsp.stocknames
+                    where ticker in ('ORCL','MSFT') and namedt <= '2026-09-30'::date and nameendt >= '2023-01-01'::date
+                ) select n.ticker, d.date, abs(d.prc) as close_price, d.ret, i.vwretd
+                  from named n join crsp.dsf d on n.permno=d.permno
+                  join crsp.dsi i on d.date=i.date
+                 where n.rn=1 and d.date <= '2026-09-30'::date
+                   and d.date >= ('2026-09-30'::date - interval '2 years')
+                   and d.prc is not null and d.prc <> 0 and d.ret is not null and i.vwretd is not null
+                 order by n.ticker, d.date
+            ]
+(Background on this error at: https://sqlalche.me/e/20/f405)"

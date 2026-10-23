@@ -1,0 +1,11 @@
+# Lab 6 source log
+
+| Source | Access route | Coverage / use | Retrieved | Notes |
+|---|---|---|---|---|
+| SEC EDGAR Company Facts — Oracle | `https://data.sec.gov/api/xbrl/companyfacts/CIK0001341439.json` | Annual structured facts and filing metadata; cached as `cache/CIK0001341439_companyfacts.json` | 2026-09-28 | User-Agent: Douglas Buckeridge, douglasbuckeridge@proton.me. Annual values selected from each year's own 10-K. |
+| SEC EDGAR Company Facts — Microsoft | `https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json` | Annual structured facts and filing metadata; cached as `cache/CIK0000789019_companyfacts.json` | 2026-09-28 | User-Agent: Douglas Buckeridge, douglasbuckeridge@proton.me. Annual values selected from each year's own 10-K. |
+| Oracle Forms 10-K | SEC archive accessions `0000950170-23-028914`, `0000950170-24-075605`, and `0000950170-25-087926` | Controlling annual statement presentation and vintage check; capex, cash, debt, and FY2023–25 lines | 2026-09-28 | Cached as `cache/oracle_2023_10k.htm`, `oracle_2024_10k.htm`, and `oracle_2025_10k.htm`; filed 2023-06-20, 2024-06-20, and 2025-06-18. |
+| Microsoft Forms 10-K | SEC archive accessions `0000950170-23-035122`, `0000950170-24-087843`, and `0000950170-25-100235` | Controlling annual statement presentation and vintage check; capex, cash, debt, and FY2023–25 lines | 2026-09-28 | Cached as `cache/microsoft_2023_10k.htm`, `microsoft_2024_10k.htm`, and `microsoft_2025_10k.htm`; filed 2023-07-27, 2024-07-30, and 2025-07-30. |
+| Oracle 2026 Q1 Form 10-Q cover | SEC archive accession `0001193125-26-389274`, `orcl-20260831.htm` | Latest filed cover share count: 3,023,736,000 as of 2026-09-07 | 2026-09-28 | Cached as `cache/oracle_2026q1.htm`; filed 2026-09-11. |
+| Microsoft 2026 Form 10-K cover | SEC archive accession `0001193125-26-323660`, `msft-20260630.htm` | Latest filed cover share count: 7,425,545,491 as of 2026-07-23 | 2026-09-28 | Cached as `cache/microsoft_2026_10k.htm`; filed 2026-07-29. |
+| WRDS / Compustat | Professional institutional access | Secondary annual-fundamentals comparison requested by course | Not yet retrieved | Document the access attempt and compare relevant fields if access is available. SEC filed statements control any disagreement. |

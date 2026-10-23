@@ -1,0 +1,2 @@
+run_date,source,status,detail
+2026-10-03,WRDS Compustat Security Daily: MSFT and SPY prccd,success,"501 matched daily return observations; 2024-10-01 to 2026-09-30; beta=0.9360; calculated as cov(MSFT return, SPY return) / var(SPY return) from prccd / lag(prccd) - 1."
